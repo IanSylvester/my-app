@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card {
+  background-color: rgb(240, 234, 234);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 20rem;
+  margin: 10px;
+}
+.btn {
+  background-color: darkred;
+  color: white;
+  border-radius: 25%;
+  
+}

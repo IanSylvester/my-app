@@ -1,10 +1,15 @@
-import './App.css';
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-     <h1>Hello World</h1>
-     <h2></h2>
+    <div>
+      <h1>My To-do's</h1>
+      <div className="card">
+        <h2>Title</h2>
+        <div className="actions">
+          <button className="btn">Delete</button>
+        </div>
+      </div>
     </div>
   );
 }
