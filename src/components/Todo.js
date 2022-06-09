@@ -1,4 +1,4 @@
-function Todo(props) {
+const Todo = (props) => {
   return (
     <div className="card">
       <h2>{props.text}</h2>

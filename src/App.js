@@ -1,7 +1,7 @@
 import React from "react";
 import Todo from "./components/Todo";
 
-function App() {
+const App = () => {
   return (
     <div>
       <h1>My To-do's</h1>
